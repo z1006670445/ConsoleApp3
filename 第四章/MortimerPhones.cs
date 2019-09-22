@@ -47,8 +47,6 @@ namespace Wrox.ProCSharp.OOProg
       }
 
    }
-
-
    public class MainEntryPoint
    {
       public static void Main()
