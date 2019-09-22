@@ -9,7 +9,7 @@ namespace Wrox
       var name = "Bugs Bunny";
       var age = 25;
       var isRabbit = true;
-  
+
       Type nameType = name.GetType();
       Type ageType = age.GetType();
       Type isRabbitType = isRabbit.GetType();

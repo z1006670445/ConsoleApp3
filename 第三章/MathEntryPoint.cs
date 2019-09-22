@@ -19,6 +19,7 @@ namespace ConsoleApp3.第三章
         }
          class MathTest
         {
+
             public int value;
             public int GetSquare()
             {

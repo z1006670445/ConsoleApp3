@@ -6,7 +6,6 @@ namespace Wrox
    {
       static void Main()
       {
-         // Instantiate a weak reference to MathTest object
          WeakReference mathReference = new WeakReference(new MathTest());   
          MathTest math;
          if(mathReference.IsAlive)
@@ -36,7 +35,6 @@ namespace Wrox
       }
    }
 
-   // Define a class named MathTest on which we will call a method
    class MathTest
    {
       public int Value;

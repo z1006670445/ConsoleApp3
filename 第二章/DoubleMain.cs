@@ -6,6 +6,7 @@ namespace Wrox
    {
       public static int Main()
       {
+
          MathExample.Main();
          return 0;
       }

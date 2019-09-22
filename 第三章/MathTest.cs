@@ -12,10 +12,9 @@ namespace Wrox
          Console.WriteLine("Square of 5 is " + x);
 
          // Instantiate at MathTest object
-         MathTest math = new MathTest();   // this is C#'s way of
-                                           // instantiating a reference type
+         MathTest math = new MathTest();   
          
-         // Call non-static methods
+
          math.Value = 30;
          Console.WriteLine(
             "Value field of math variable contains " + math.Value);
@@ -23,7 +22,7 @@ namespace Wrox
       }
    }
 
-   // Define a class named MathTest on which we will call a method
+
    class MathTest
    {
       public int Value;

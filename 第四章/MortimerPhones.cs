@@ -11,7 +11,7 @@ namespace Wrox.ProCSharp.OOProg
       {
          name = "<no name>";
       }
-      
+     
       public GenericCustomer(string name)
       {
           this.name = name;

@@ -6,6 +6,7 @@ namespace Wrox
    {
       static void Main(string[] args)
       {
+
          Console.WriteLine("Type in a string");
          string input;
          input = Console.ReadLine();
